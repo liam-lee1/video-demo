@@ -1,0 +1,1 @@
+<p>grep(array,callback,boolean)</p><p>grep()方法的参数如下：</p><p>array是原始数组，grep()方法对原始数组进行筛选。callback是回调函数，执行筛选任务，返回过滤完的数组的值。boolean通常省略，默认为false，如果为true则返回与回调函数中提供的条件语句不匹配的值。</p><p>&nbsp;</p><p>jquery中的sort()方法可以对数组进行排序。sort方法按字母顺序为字符串数组排序。它不能用于数值排序，它是基于ASCII码值排序的。</p><p>&nbsp;</p><p>append方法，向匹配的元素内部追加内容。</p>

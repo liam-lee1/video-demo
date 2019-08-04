@@ -1,0 +1,1 @@
+<p><span style="color: rgb(153, 153, 153); font-family: MicrosoftYaHei; font-size: 14px; background-color: rgb(255, 255, 255);">google chrome 安装 CORS插件可直接本地ajax调式远程服务解口，解决跨域问题。</span></p>

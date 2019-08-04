@@ -1,0 +1,159 @@
+/*
+ * Dandelion Admin v1.0 - Obfuscated Main Stylesheet
+ * This file has been obfuscated using this tool: http://refresh-sf.com/yui/
+ * Buyers will get a full, commented CSS source code in their downloadable package.
+ *
+ * This file is part of Dandelion Admin, an Admin template build for sale at ThemeForest.
+ *
+ */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,meter,nav,object,ol,output,p,pre,progress,q,rp,rt,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video,xmp {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 100%
+}
+
+html,body {
+	height: 100%
+}
+
+img {
+	color: transparent;
+	font-size: 0;
+	vertical-align: middle;
+	-ms-interpolation-mode: bicubic
+}
+
+body {
+	background-image: url("../images/blueprint.png")
+}
+
+a {
+	color: #73991f;
+	text-decoration: none;
+	outline: 0
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+body {
+	background-color: #f2f2f2;
+	color: #444;
+	font: 12px/1.5 'Helvetica Neue',Arial,Helvetica,sans-serif
+}
+
+div#da-wrapper {
+	height: auto;
+	min-height: 100%;
+	position: relative;
+	min-width: 320px
+}
+
+div#da-wrapper,div#da-wrapper.fluid {
+	width: 100%
+}
+
+div#da-wrapper .da-container,div#da-wrapper.fluid .da-container {
+	width: 96%;
+	margin: auto
+}
+
+div#da-header {
+	z-index: 200;
+	position: relative
+}
+
+div#da-content {
+	clear: both;
+	padding-bottom: 58px
+}
+
+
+@media only screen and (max-width:480px) {
+	div#da-wrapper .da-container {
+		width: 100%!important
+	}
+}
+
+div#da-error-wrapper {
+	width: 320px;
+	padding: 20vh 0;
+	margin: auto;
+	position: relative
+}
+
+div#da-error-wrapper .da-error-heading {
+	color: #e15656;
+	text-align: center;
+	font-size: 24px;
+	font-family: Georgia,"Times New Roman",Times,serif
+}
+
+@-webkit-keyframes error-swing {
+	0% {
+		-webkit-transform: rotate(1deg)
+	}
+
+	100% {
+		-webkit-transform: rotate(-2deg)
+	}
+}
+
+@-moz-keyframes error-swing {
+	0% {
+		-moz-transform: rotate(1deg)
+	}
+
+	100% {
+		-moz-transform: rotate(-2deg)
+	}
+}
+
+@keyframes error-swing {
+	0% {
+		transform: rotate(1deg)
+	}
+
+	100% {
+		transform: rotate(-2deg)
+	}
+}
+
+div#da-error-wrapper #da-error-code {
+	width: 285px;
+	height: 170px;
+	padding: 127px 16px 0 16px;
+	position: relative;
+	margin: auto;
+	margin-bottom: 20px;
+	z-index: 5;
+	line-height: 1;
+	font-size: 28px;
+	text-align: center;
+	background: url("../images/error-hanger.png") no-repeat center center;
+	-webkit-transform-origin: center top;
+	-moz-transform-origin: center top;
+	transform-origin: center top;
+	-webkit-animation: error-swing infinite 2s ease-in-out alternate;
+	-moz-animation: error-swing infinite 2s ease-in-out alternate;
+	animation: error-swing infinite 2s ease-in-out alternate
+}
+
+div#da-error-wrapper #da-error-code span {
+	font-size: 40px;
+    display: block;
+    padding-top: 15px;
+}
+
+div#da-error-wrapper #da-error-pin {
+	width: 38px;
+	height: 38px;
+	display: block;
+	margin: auto;
+	margin-bottom: -27px;
+	z-index: 10;
+	position: relative;
+	background: url("../images/error-pin.png") no-repeat center center
+}
